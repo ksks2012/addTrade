@@ -1,0 +1,17 @@
+Server:
+  RunMode: debug
+  HttpPort: 18080
+  ReadTimeout: 60
+  WriteTimeout: 60
+App:
+  WebSocketAddr: wss://stream.yshyqxx.com/stream
+  WebSocketServerPort: :2022
+  ExchangeClass: btcusdt
+  LogSavePath: storage/logs
+  LogFileName: app
+  LogFileExt: .log
+  DefaultContextTimeout: 60
+Redis:
+  Password: ""
+  Host: localhost:6379
+  DBName: 0
